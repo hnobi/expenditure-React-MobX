@@ -1,14 +1,82 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.container {
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.controls {
+  width: 60%;
+  border: 1px solid gray;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 90%;
+  margin-top: 50px;
+  background: #45a9a3;
+}
+
+.input {
+  width: 100%;
+  display: flex;
+  height: 70px;
+}
+
+input {
+  width: 100%;
+  font-size: 16px;
+  color: #c72481;
+  border: 2px solid #45a9a3;
+}
+
+h1 {
+  color: #c72481;
+  font-family: monospace;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-between;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 10px;
+}
+
+thead {
+  color: #fff;
+  background: #c72481;
+  font-weight: bold;
+}
+
+tfoot {
+  color: red;
+  background-color: #fff;
+  font-weight: bolder;
+}
+
+button {
+  background: gray;
+  padding: 10px 15px;
+  margin: 10px;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 14px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #fff;
+  color: #45a9a3;
+}
+
+input {
+  padding: 10px 15px;
+  margin: 10px;
 }
